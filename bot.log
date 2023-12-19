@@ -1,0 +1,337 @@
+2023-12-18 00:32:24,647 - INFO - BEGIN (implicit)
+2023-12-18 00:32:24,647 - INFO - PRAGMA main.table_info("users")
+2023-12-18 00:32:24,647 - INFO - [raw sql] ()
+2023-12-18 00:32:24,650 - INFO - PRAGMA main.table_info("categories")
+2023-12-18 00:32:24,650 - INFO - [raw sql] ()
+2023-12-18 00:32:24,651 - INFO - PRAGMA main.table_info("products")
+2023-12-18 00:32:24,651 - INFO - [raw sql] ()
+2023-12-18 00:32:24,651 - INFO - PRAGMA main.table_info("carts")
+2023-12-18 00:32:24,651 - INFO - [raw sql] ()
+2023-12-18 00:32:24,652 - INFO - COMMIT
+2023-12-18 00:32:24,901 - INFO - Start polling
+2023-12-18 00:32:27,838 - INFO - Run polling for bot @qrshopsisbot id=6316468917 - 'QRShop Bot'
+2023-12-18 00:32:35,109 - INFO - Polling stopped
+2023-12-18 00:32:35,367 - INFO - Polling stopped for bot @qrshopsisbot id=6316468917 - 'QRShop Bot'
+2023-12-18 00:32:49,769 - INFO - BEGIN (implicit)
+2023-12-18 00:32:49,769 - INFO - PRAGMA main.table_info("users")
+2023-12-18 00:32:49,769 - INFO - [raw sql] ()
+2023-12-18 00:32:49,770 - INFO - PRAGMA main.table_info("categories")
+2023-12-18 00:32:49,770 - INFO - [raw sql] ()
+2023-12-18 00:32:49,771 - INFO - PRAGMA main.table_info("products")
+2023-12-18 00:32:49,771 - INFO - [raw sql] ()
+2023-12-18 00:32:49,771 - INFO - PRAGMA main.table_info("carts")
+2023-12-18 00:32:49,771 - INFO - [raw sql] ()
+2023-12-18 00:32:49,772 - INFO - COMMIT
+2023-12-18 00:32:50,009 - INFO - Start polling
+2023-12-18 00:32:50,314 - INFO - Run polling for bot @qrshopsisbot id=6316468917 - 'QRShop Bot'
+2023-12-18 00:32:51,013 - INFO - Update id=222974403 is handled. Duration 594 ms by bot id=6316468917
+2023-12-18 00:32:55,612 - INFO - Update id=222974404 is not handled. Duration 0 ms by bot id=6316468917
+2023-12-18 00:33:10,686 - INFO - Update id=222974405 is not handled. Duration 0 ms by bot id=6316468917
+2023-12-18 00:33:11,738 - INFO - Update id=222974406 is not handled. Duration 16 ms by bot id=6316468917
+2023-12-18 00:33:12,908 - INFO - Update id=222974407 is not handled. Duration 0 ms by bot id=6316468917
+2023-12-18 00:33:24,948 - INFO - Polling stopped
+2023-12-18 00:33:25,202 - INFO - Polling stopped for bot @qrshopsisbot id=6316468917 - 'QRShop Bot'
+2023-12-18 00:34:26,016 - INFO - BEGIN (implicit)
+2023-12-18 00:34:26,016 - INFO - PRAGMA main.table_info("users")
+2023-12-18 00:34:26,016 - INFO - [raw sql] ()
+2023-12-18 00:34:26,017 - INFO - PRAGMA main.table_info("categories")
+2023-12-18 00:34:26,017 - INFO - [raw sql] ()
+2023-12-18 00:34:26,018 - INFO - PRAGMA main.table_info("products")
+2023-12-18 00:34:26,018 - INFO - [raw sql] ()
+2023-12-18 00:34:26,018 - INFO - PRAGMA main.table_info("carts")
+2023-12-18 00:34:26,018 - INFO - [raw sql] ()
+2023-12-18 00:34:26,019 - INFO - COMMIT
+2023-12-18 00:34:26,255 - INFO - Start polling
+2023-12-18 00:34:26,557 - INFO - Run polling for bot @qrshopsisbot id=6316468917 - 'QRShop Bot'
+2023-12-18 00:34:31,397 - INFO - Update id=222974408 is handled. Duration 734 ms by bot id=6316468917
+2023-12-18 00:34:32,661 - INFO - BEGIN (implicit)
+2023-12-18 00:34:32,666 - INFO - SELECT categories.id, categories.name 
+FROM categories
+2023-12-18 00:34:32,666 - INFO - [generated in 0.00018s] ()
+2023-12-18 00:34:32,667 - INFO - ROLLBACK
+2023-12-18 00:34:32,892 - INFO - Update id=222974409 is handled. Duration 219 ms by bot id=6316468917
+2023-12-18 00:34:35,364 - INFO - BEGIN (implicit)
+2023-12-18 00:34:35,365 - INFO - SELECT products.id, products.name, products.amount, products.description, products.price, products.category_id, products.image_url 
+FROM products 
+WHERE products.category_id = ?
+2023-12-18 00:34:35,365 - INFO - [generated in 0.00015s] ('1',)
+2023-12-18 00:34:35,366 - INFO - ROLLBACK
+2023-12-18 00:34:35,367 - INFO - BEGIN (implicit)
+2023-12-18 00:34:35,368 - INFO - SELECT products.id, products.name, products.amount, products.description, products.price, products.category_id, products.image_url 
+FROM products 
+WHERE products.category_id = ?
+2023-12-18 00:34:35,368 - INFO - [cached since 0.003207s ago] ('1',)
+2023-12-18 00:34:35,368 - INFO - ROLLBACK
+2023-12-18 00:34:35,792 - INFO - Update id=222974410 is handled. Duration 421 ms by bot id=6316468917
+2023-12-18 00:34:38,603 - INFO - BEGIN (implicit)
+2023-12-18 00:34:38,603 - INFO - SELECT products.id, products.name, products.amount, products.description, products.price, products.category_id, products.image_url 
+FROM products 
+WHERE products.id = ?
+2023-12-18 00:34:38,603 - INFO - [generated in 0.00012s] ('1',)
+2023-12-18 00:34:38,605 - INFO - ROLLBACK
+2023-12-18 00:34:38,861 - INFO - Update id=222974411 is handled. Duration 250 ms by bot id=6316468917
+2023-12-18 00:34:41,391 - INFO - Update id=222974412 is handled. Duration 125 ms by bot id=6316468917
+2023-12-18 00:34:42,604 - INFO - BEGIN (implicit)
+2023-12-18 00:34:42,605 - INFO - INSERT INTO carts (user_id, product_id, size) VALUES (?, ?, ?)
+2023-12-18 00:34:42,605 - INFO - [generated in 0.00014s] (529050041, 1, 'L')
+2023-12-18 00:34:42,606 - INFO - COMMIT
+2023-12-18 00:34:42,717 - INFO - Update id=222974413 is handled. Duration 108 ms by bot id=6316468917
+2023-12-18 00:34:44,827 - INFO - BEGIN (implicit)
+2023-12-18 00:34:44,828 - INFO - SELECT categories.id, categories.name 
+FROM categories
+2023-12-18 00:34:44,828 - INFO - [cached since 12.16s ago] ()
+2023-12-18 00:34:44,828 - INFO - ROLLBACK
+2023-12-18 00:34:44,966 - INFO - Update id=222974414 is handled. Duration 139 ms by bot id=6316468917
+2023-12-18 00:34:46,316 - INFO - BEGIN (implicit)
+2023-12-18 00:34:46,316 - INFO - SELECT products.id, products.name, products.amount, products.description, products.price, products.category_id, products.image_url 
+FROM products 
+WHERE products.category_id = ?
+2023-12-18 00:34:46,316 - INFO - [cached since 10.95s ago] ('3',)
+2023-12-18 00:34:46,317 - INFO - ROLLBACK
+2023-12-18 00:34:46,318 - INFO - BEGIN (implicit)
+2023-12-18 00:34:46,318 - INFO - SELECT products.id, products.name, products.amount, products.description, products.price, products.category_id, products.image_url 
+FROM products 
+WHERE products.category_id = ?
+2023-12-18 00:34:46,318 - INFO - [cached since 10.95s ago] ('3',)
+2023-12-18 00:34:46,319 - INFO - ROLLBACK
+2023-12-18 00:34:46,557 - INFO - Update id=222974415 is handled. Duration 250 ms by bot id=6316468917
+2023-12-18 00:34:47,484 - INFO - BEGIN (implicit)
+2023-12-18 00:34:47,484 - INFO - SELECT products.id, products.name, products.amount, products.description, products.price, products.category_id, products.image_url 
+FROM products 
+WHERE products.id = ?
+2023-12-18 00:34:47,484 - INFO - [cached since 8.88s ago] ('3',)
+2023-12-18 00:34:47,485 - INFO - ROLLBACK
+2023-12-18 00:34:48,559 - INFO - Update id=222974416 is handled. Duration 1078 ms by bot id=6316468917
+2023-12-18 00:34:49,656 - INFO - Update id=222974417 is handled. Duration 155 ms by bot id=6316468917
+2023-12-18 00:34:51,035 - INFO - BEGIN (implicit)
+2023-12-18 00:34:51,036 - INFO - INSERT INTO carts (user_id, product_id, size) VALUES (?, ?, ?)
+2023-12-18 00:34:51,036 - INFO - [cached since 8.431s ago] (529050041, 3, 'L')
+2023-12-18 00:34:51,037 - INFO - COMMIT
+2023-12-18 00:34:51,154 - INFO - Update id=222974418 is handled. Duration 109 ms by bot id=6316468917
+2023-12-18 00:34:52,952 - INFO - BEGIN (implicit)
+2023-12-18 00:34:52,954 - INFO - SELECT carts.id, carts.user_id, carts.product_id, carts.size, products_1.id AS id_1, products_1.name, products_1.amount, products_1.description, products_1.price, products_1.category_id, products_1.image_url 
+FROM carts LEFT OUTER JOIN products AS products_1 ON products_1.id = carts.product_id 
+WHERE carts.user_id = ?
+2023-12-18 00:34:52,954 - INFO - [generated in 0.00013s] (529050041,)
+2023-12-18 00:34:52,955 - INFO - ROLLBACK
+2023-12-18 00:34:52,957 - INFO - BEGIN (implicit)
+2023-12-18 00:34:52,957 - INFO - SELECT products.id, products.name, products.amount, products.description, products.price, products.category_id, products.image_url 
+FROM products 
+WHERE products.id = ?
+2023-12-18 00:34:52,957 - INFO - [generated in 0.00012s] (1,)
+2023-12-18 00:34:52,958 - INFO - ROLLBACK
+2023-12-18 00:34:52,959 - INFO - BEGIN (implicit)
+2023-12-18 00:34:52,959 - INFO - SELECT products.id, products.name, products.amount, products.description, products.price, products.category_id, products.image_url 
+FROM products 
+WHERE products.id = ?
+2023-12-18 00:34:52,959 - INFO - [cached since 0.001974s ago] (3,)
+2023-12-18 00:34:52,960 - INFO - ROLLBACK
+2023-12-18 00:34:53,112 - INFO - Update id=222974419 is handled. Duration 155 ms by bot id=6316468917
+2023-12-18 00:34:54,632 - INFO - BEGIN (implicit)
+2023-12-18 00:34:54,632 - INFO - SELECT carts.id, carts.user_id, carts.product_id, carts.size, products_1.id AS id_1, products_1.name, products_1.amount, products_1.description, products_1.price, products_1.category_id, products_1.image_url 
+FROM carts LEFT OUTER JOIN products AS products_1 ON products_1.id = carts.product_id 
+WHERE carts.user_id = ?
+2023-12-18 00:34:54,632 - INFO - [cached since 1.678s ago] (529050041,)
+2023-12-18 00:34:54,633 - INFO - ROLLBACK
+2023-12-18 00:34:54,762 - INFO - Update id=222974420 is handled. Duration 125 ms by bot id=6316468917
+2023-12-18 00:35:23,573 - INFO - BEGIN (implicit)
+2023-12-18 00:35:23,573 - INFO - SELECT carts.id, carts.user_id, carts.product_id, carts.size, products_1.id AS id_1, products_1.name, products_1.amount, products_1.description, products_1.price, products_1.category_id, products_1.image_url 
+FROM carts LEFT OUTER JOIN products AS products_1 ON products_1.id = carts.product_id 
+WHERE carts.user_id = ?
+2023-12-18 00:35:23,573 - INFO - [cached since 30.62s ago] (529050041,)
+2023-12-18 00:35:23,574 - INFO - ROLLBACK
+2023-12-18 00:35:23,576 - INFO - BEGIN (implicit)
+2023-12-18 00:35:23,577 - INFO - SELECT products.id, products.name, products.amount, products.description, products.price, products.category_id, products.image_url 
+FROM products 
+WHERE products.id = ?
+2023-12-18 00:35:23,577 - INFO - [cached since 30.62s ago] (1,)
+2023-12-18 00:35:23,577 - INFO - ROLLBACK
+2023-12-18 00:35:23,578 - INFO - BEGIN (implicit)
+2023-12-18 00:35:23,580 - INFO - SELECT products.id AS products_id, products.name AS products_name, products.amount AS products_amount, products.description AS products_description, products.price AS products_price, products.category_id AS products_category_id, products.image_url AS products_image_url 
+FROM products 
+WHERE products.id = ?
+2023-12-18 00:35:23,580 - INFO - [generated in 0.00016s] (1,)
+2023-12-18 00:35:23,582 - INFO - UPDATE products SET amount=? WHERE products.id = ?
+2023-12-18 00:35:23,582 - INFO - [generated in 0.00021s] (17, 1)
+2023-12-18 00:35:23,584 - INFO - COMMIT
+2023-12-18 00:35:23,588 - INFO - BEGIN (implicit)
+2023-12-18 00:35:23,588 - INFO - SELECT products.id, products.name, products.amount, products.description, products.price, products.category_id, products.image_url 
+FROM products 
+WHERE products.id = ?
+2023-12-18 00:35:23,588 - INFO - [cached since 30.63s ago] (3,)
+2023-12-18 00:35:23,589 - INFO - ROLLBACK
+2023-12-18 00:35:23,590 - INFO - BEGIN (implicit)
+2023-12-18 00:35:23,590 - INFO - SELECT products.id AS products_id, products.name AS products_name, products.amount AS products_amount, products.description AS products_description, products.price AS products_price, products.category_id AS products_category_id, products.image_url AS products_image_url 
+FROM products 
+WHERE products.id = ?
+2023-12-18 00:35:23,590 - INFO - [cached since 0.01026s ago] (3,)
+2023-12-18 00:35:23,591 - INFO - UPDATE products SET amount=? WHERE products.id = ?
+2023-12-18 00:35:23,591 - INFO - [cached since 0.009079s ago] (16, 3)
+2023-12-18 00:35:23,592 - INFO - COMMIT
+2023-12-18 00:35:23,595 - INFO - BEGIN (implicit)
+2023-12-18 00:35:23,596 - INFO - DELETE FROM carts WHERE carts.user_id = ?
+2023-12-18 00:35:23,596 - INFO - [generated in 0.00020s] (529050041,)
+2023-12-18 00:35:23,597 - INFO - COMMIT
+2023-12-18 00:35:23,980 - INFO - Update id=222974421 is handled. Duration 405 ms by bot id=6316468917
+2023-12-18 00:35:39,914 - INFO - Update id=222974422 is handled. Duration 421 ms by bot id=6316468917
+2023-12-18 00:36:18,758 - INFO - Polling stopped
+2023-12-18 00:36:19,013 - INFO - Polling stopped for bot @qrshopsisbot id=6316468917 - 'QRShop Bot'
+2023-12-18 15:22:48,744 - INFO - BEGIN (implicit)
+2023-12-18 15:22:48,744 - INFO - PRAGMA main.table_info("users")
+2023-12-18 15:22:48,744 - INFO - [raw sql] ()
+2023-12-18 15:22:48,746 - INFO - PRAGMA main.table_info("categories")
+2023-12-18 15:22:48,746 - INFO - [raw sql] ()
+2023-12-18 15:22:48,747 - INFO - PRAGMA main.table_info("products")
+2023-12-18 15:22:48,747 - INFO - [raw sql] ()
+2023-12-18 15:22:48,747 - INFO - PRAGMA main.table_info("carts")
+2023-12-18 15:22:48,747 - INFO - [raw sql] ()
+2023-12-18 15:22:48,747 - INFO - COMMIT
+2023-12-18 15:22:48,993 - INFO - Start polling
+2023-12-18 15:22:49,313 - INFO - Run polling for bot @qrshopsisbot id=6316468917 - 'QRShop Bot'
+2023-12-18 15:23:20,951 - INFO - Update id=222974423 is handled. Duration 453 ms by bot id=6316468917
+2023-12-18 15:23:27,861 - INFO - BEGIN (implicit)
+2023-12-18 15:23:27,867 - INFO - SELECT categories.id, categories.name 
+FROM categories
+2023-12-18 15:23:27,867 - INFO - [generated in 0.00016s] ()
+2023-12-18 15:23:27,868 - INFO - ROLLBACK
+2023-12-18 15:23:28,025 - INFO - Update id=222974424 is handled. Duration 171 ms by bot id=6316468917
+2023-12-18 15:23:30,530 - INFO - BEGIN (implicit)
+2023-12-18 15:23:30,530 - INFO - SELECT products.id, products.name, products.amount, products.description, products.price, products.category_id, products.image_url 
+FROM products 
+WHERE products.category_id = ?
+2023-12-18 15:23:30,531 - INFO - [generated in 0.00015s] ('2',)
+2023-12-18 15:23:30,532 - INFO - ROLLBACK
+2023-12-18 15:23:30,533 - INFO - BEGIN (implicit)
+2023-12-18 15:23:30,533 - INFO - SELECT products.id, products.name, products.amount, products.description, products.price, products.category_id, products.image_url 
+FROM products 
+WHERE products.category_id = ?
+2023-12-18 15:23:30,533 - INFO - [cached since 0.002394s ago] ('2',)
+2023-12-18 15:23:30,534 - INFO - ROLLBACK
+2023-12-18 15:23:30,870 - INFO - Update id=222974425 is handled. Duration 344 ms by bot id=6316468917
+2023-12-18 15:23:31,961 - INFO - BEGIN (implicit)
+2023-12-18 15:23:31,962 - INFO - SELECT products.id, products.name, products.amount, products.description, products.price, products.category_id, products.image_url 
+FROM products 
+WHERE products.id = ?
+2023-12-18 15:23:31,962 - INFO - [generated in 0.00019s] ('2',)
+2023-12-18 15:23:31,963 - INFO - ROLLBACK
+2023-12-18 15:23:32,231 - INFO - Update id=222974426 is handled. Duration 266 ms by bot id=6316468917
+2023-12-18 15:23:36,049 - INFO - Update id=222974427 is handled. Duration 108 ms by bot id=6316468917
+2023-12-18 15:23:37,185 - INFO - BEGIN (implicit)
+2023-12-18 15:23:37,186 - INFO - INSERT INTO carts (user_id, product_id, size) VALUES (?, ?, ?)
+2023-12-18 15:23:37,186 - INFO - [generated in 0.00015s] (529050041, 2, 'L')
+2023-12-18 15:23:37,188 - INFO - COMMIT
+2023-12-18 15:23:37,303 - INFO - Update id=222974428 is handled. Duration 125 ms by bot id=6316468917
+2023-12-18 15:23:44,026 - INFO - BEGIN (implicit)
+2023-12-18 15:23:44,026 - INFO - SELECT products.id, products.name, products.amount, products.description, products.price, products.category_id, products.image_url 
+FROM products 
+WHERE products.category_id = ?
+2023-12-18 15:23:44,027 - INFO - [cached since 13.5s ago] ('2',)
+2023-12-18 15:23:44,027 - INFO - ROLLBACK
+2023-12-18 15:23:44,301 - INFO - Update id=222974429 is handled. Duration 281 ms by bot id=6316468917
+2023-12-18 15:23:47,098 - INFO - BEGIN (implicit)
+2023-12-18 15:23:47,098 - INFO - SELECT categories.id, categories.name 
+FROM categories
+2023-12-18 15:23:47,098 - INFO - [cached since 19.23s ago] ()
+2023-12-18 15:23:47,099 - INFO - ROLLBACK
+2023-12-18 15:23:47,261 - INFO - Update id=222974430 is handled. Duration 172 ms by bot id=6316468917
+2023-12-18 15:23:49,696 - INFO - BEGIN (implicit)
+2023-12-18 15:23:49,697 - INFO - SELECT products.id, products.name, products.amount, products.description, products.price, products.category_id, products.image_url 
+FROM products 
+WHERE products.category_id = ?
+2023-12-18 15:23:49,697 - INFO - [cached since 19.17s ago] ('1',)
+2023-12-18 15:23:49,698 - INFO - ROLLBACK
+2023-12-18 15:23:49,699 - INFO - BEGIN (implicit)
+2023-12-18 15:23:49,699 - INFO - SELECT products.id, products.name, products.amount, products.description, products.price, products.category_id, products.image_url 
+FROM products 
+WHERE products.category_id = ?
+2023-12-18 15:23:49,699 - INFO - [cached since 19.17s ago] ('1',)
+2023-12-18 15:23:49,699 - INFO - ROLLBACK
+2023-12-18 15:23:50,031 - INFO - Update id=222974431 is handled. Duration 327 ms by bot id=6316468917
+2023-12-18 15:23:50,821 - INFO - BEGIN (implicit)
+2023-12-18 15:23:50,821 - INFO - SELECT products.id, products.name, products.amount, products.description, products.price, products.category_id, products.image_url 
+FROM products 
+WHERE products.id = ?
+2023-12-18 15:23:50,821 - INFO - [cached since 18.86s ago] ('1',)
+2023-12-18 15:23:50,822 - INFO - ROLLBACK
+2023-12-18 15:23:51,113 - INFO - Update id=222974432 is handled. Duration 296 ms by bot id=6316468917
+2023-12-18 15:23:52,032 - INFO - Update id=222974433 is handled. Duration 125 ms by bot id=6316468917
+2023-12-18 15:23:54,206 - INFO - BEGIN (implicit)
+2023-12-18 15:23:54,207 - INFO - INSERT INTO carts (user_id, product_id, size) VALUES (?, ?, ?)
+2023-12-18 15:23:54,207 - INFO - [cached since 17.02s ago] (529050041, 1, 'XL')
+2023-12-18 15:23:54,208 - INFO - COMMIT
+2023-12-18 15:23:54,343 - INFO - Update id=222974434 is handled. Duration 139 ms by bot id=6316468917
+2023-12-18 15:23:56,106 - INFO - BEGIN (implicit)
+2023-12-18 15:23:56,109 - INFO - SELECT carts.id, carts.user_id, carts.product_id, carts.size, products_1.id AS id_1, products_1.name, products_1.amount, products_1.description, products_1.price, products_1.category_id, products_1.image_url 
+FROM carts LEFT OUTER JOIN products AS products_1 ON products_1.id = carts.product_id 
+WHERE carts.user_id = ?
+2023-12-18 15:23:56,109 - INFO - [generated in 0.00013s] (529050041,)
+2023-12-18 15:23:56,110 - INFO - ROLLBACK
+2023-12-18 15:23:56,111 - INFO - BEGIN (implicit)
+2023-12-18 15:23:56,111 - INFO - SELECT products.id, products.name, products.amount, products.description, products.price, products.category_id, products.image_url 
+FROM products 
+WHERE products.id = ?
+2023-12-18 15:23:56,111 - INFO - [generated in 0.00010s] (2,)
+2023-12-18 15:23:56,112 - INFO - ROLLBACK
+2023-12-18 15:23:56,113 - INFO - BEGIN (implicit)
+2023-12-18 15:23:56,113 - INFO - SELECT products.id, products.name, products.amount, products.description, products.price, products.category_id, products.image_url 
+FROM products 
+WHERE products.id = ?
+2023-12-18 15:23:56,113 - INFO - [cached since 0.001677s ago] (1,)
+2023-12-18 15:23:56,113 - INFO - ROLLBACK
+2023-12-18 15:23:56,239 - INFO - Update id=222974435 is handled. Duration 141 ms by bot id=6316468917
+2023-12-18 15:24:04,776 - INFO - BEGIN (implicit)
+2023-12-18 15:24:04,776 - INFO - SELECT carts.id, carts.user_id, carts.product_id, carts.size, products_1.id AS id_1, products_1.name, products_1.amount, products_1.description, products_1.price, products_1.category_id, products_1.image_url 
+FROM carts LEFT OUTER JOIN products AS products_1 ON products_1.id = carts.product_id 
+WHERE carts.user_id = ?
+2023-12-18 15:24:04,776 - INFO - [cached since 8.667s ago] (529050041,)
+2023-12-18 15:24:04,777 - INFO - ROLLBACK
+2023-12-18 15:24:05,026 - INFO - Update id=222974436 is handled. Duration 250 ms by bot id=6316468917
+2023-12-18 15:24:06,677 - INFO - BEGIN (implicit)
+2023-12-18 15:24:06,677 - INFO - SELECT carts.id, carts.user_id, carts.product_id, carts.size, products_1.id AS id_1, products_1.name, products_1.amount, products_1.description, products_1.price, products_1.category_id, products_1.image_url 
+FROM carts LEFT OUTER JOIN products AS products_1 ON products_1.id = carts.product_id 
+WHERE carts.user_id = ?
+2023-12-18 15:24:06,677 - INFO - [cached since 10.57s ago] (529050041,)
+2023-12-18 15:24:06,678 - INFO - ROLLBACK
+2023-12-18 15:24:06,680 - INFO - BEGIN (implicit)
+2023-12-18 15:24:06,680 - INFO - SELECT products.id, products.name, products.amount, products.description, products.price, products.category_id, products.image_url 
+FROM products 
+WHERE products.id = ?
+2023-12-18 15:24:06,680 - INFO - [cached since 10.57s ago] (2,)
+2023-12-18 15:24:06,681 - INFO - ROLLBACK
+2023-12-18 15:24:06,682 - INFO - BEGIN (implicit)
+2023-12-18 15:24:06,684 - INFO - SELECT products.id AS products_id, products.name AS products_name, products.amount AS products_amount, products.description AS products_description, products.price AS products_price, products.category_id AS products_category_id, products.image_url AS products_image_url 
+FROM products 
+WHERE products.id = ?
+2023-12-18 15:24:06,684 - INFO - [generated in 0.00012s] (2,)
+2023-12-18 15:24:06,686 - INFO - UPDATE products SET amount=? WHERE products.id = ?
+2023-12-18 15:24:06,686 - INFO - [generated in 0.00013s] (18, 2)
+2023-12-18 15:24:06,687 - INFO - COMMIT
+2023-12-18 15:24:06,690 - INFO - BEGIN (implicit)
+2023-12-18 15:24:06,691 - INFO - SELECT products.id, products.name, products.amount, products.description, products.price, products.category_id, products.image_url 
+FROM products 
+WHERE products.id = ?
+2023-12-18 15:24:06,691 - INFO - [cached since 10.58s ago] (1,)
+2023-12-18 15:24:06,691 - INFO - ROLLBACK
+2023-12-18 15:24:06,692 - INFO - BEGIN (implicit)
+2023-12-18 15:24:06,692 - INFO - SELECT products.id AS products_id, products.name AS products_name, products.amount AS products_amount, products.description AS products_description, products.price AS products_price, products.category_id AS products_category_id, products.image_url AS products_image_url 
+FROM products 
+WHERE products.id = ?
+2023-12-18 15:24:06,692 - INFO - [cached since 0.008197s ago] (1,)
+2023-12-18 15:24:06,693 - INFO - UPDATE products SET amount=? WHERE products.id = ?
+2023-12-18 15:24:06,693 - INFO - [cached since 0.007521s ago] (16, 1)
+2023-12-18 15:24:06,694 - INFO - COMMIT
+2023-12-18 15:24:06,697 - INFO - BEGIN (implicit)
+2023-12-18 15:24:06,698 - INFO - DELETE FROM carts WHERE carts.user_id = ?
+2023-12-18 15:24:06,698 - INFO - [generated in 0.00016s] (529050041,)
+2023-12-18 15:24:06,699 - INFO - COMMIT
+2023-12-18 15:24:06,830 - INFO - Update id=222974437 is handled. Duration 157 ms by bot id=6316468917
+2023-12-18 15:25:51,654 - INFO - Update id=222974438 is handled. Duration 390 ms by bot id=6316468917
+2023-12-18 15:25:53,345 - INFO - BEGIN (implicit)
+2023-12-18 15:25:53,345 - INFO - SELECT carts.id, carts.user_id, carts.product_id, carts.size, products_1.id AS id_1, products_1.name, products_1.amount, products_1.description, products_1.price, products_1.category_id, products_1.image_url 
+FROM carts LEFT OUTER JOIN products AS products_1 ON products_1.id = carts.product_id 
+WHERE carts.user_id = ?
+2023-12-18 15:25:53,345 - INFO - [cached since 117.2s ago] (529050041,)
+2023-12-18 15:25:53,346 - INFO - ROLLBACK
+2023-12-18 15:25:53,576 - INFO - Update id=222974439 is handled. Duration 235 ms by bot id=6316468917
+2023-12-18 15:41:23,798 - INFO - Polling stopped
+2023-12-18 15:41:24,061 - INFO - Polling stopped for bot @qrshopsisbot id=6316468917 - 'QRShop Bot'
